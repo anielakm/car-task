@@ -22,7 +22,7 @@ const FormFields = (props) => {
             <Input width="230px" small type="text" name="zipCode" placeholder="* Kod pocztowy" value={zipCode} onChange={handleChange} style={errors_required.zipCode || errors_message.zipCode_error ? { border: `1px solid red` } : null} />
             <Input width="220px" type="text" name="city" placeholder="* Miejscowość" value={city} onChange={handleChange} style={errors_required.city ? { border: `1px solid red` } : null} />
             <Input width="300px" type="text" name="street" placeholder="* Ulica" value={street} onChange={handleChange} style={errors_required.street ? { border: `1px solid red` } : null} />
-            <Input width="100px" small type="text" name="houseNum" placeholder="* Nr domu" value={houseNum} onChange={handleChange} style={errors_required.houseNum ? { border: `1px solid red` } : null} />
+            <Input width="130px" small type="text" name="houseNum" placeholder="* Nr domu" value={houseNum} onChange={handleChange} style={errors_required.houseNum ? { border: `1px solid red` } : null} />
             <Input width="100px" small type="text" name="apartmentNum" placeholder="Nr lokalu" value={apartmentNum} onChange={handleChange} /> <br />
 
             <div className="form-text">
