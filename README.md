@@ -10,7 +10,7 @@ Runs the app in the development mode.<br />
 
 ## Slider
 
-Slider in project was based on [react-slick][https://github.com/akiran/react-slick] carousel component.
+Slider in project was based on [react-slick](https://github.com/akiran/react-slick) carousel component.
 
 ## Form Validation 
 
